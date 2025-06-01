@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:controller="com.example.hotelmanagementsystem.HotelRoomBookingsController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="label_HotelRoomBookings" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="222.0" layoutY="14.0" text="Hotel Room Bookings" textAlignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView_BookingsTable" layoutX="-1.0" layoutY="65.0" prefHeight="336.0" prefWidth="704.0">
+        <columns>
+          <TableColumn fx:id="tableColumn_FloorNumber" prefWidth="75.20001524686813" sortable="false" text="Floor #" />
+          <TableColumn fx:id="tableColumn_RoomNumber" minWidth="0.0" prefWidth="69.5999755859375" sortable="false" text="Room #" />
+            <TableColumn fx:id="tableColumn_LastName" minWidth="0.0" prefWidth="184.7999725341797" sortable="false" text="Last Name" />
+            <TableColumn fx:id="tableColumn_DaysStaying" minWidth="0.0" prefWidth="92.800048828125" sortable="false" text="Days Staying" />
+            <TableColumn fx:id="tableColumn_PartySize" minWidth="0.0" prefWidth="90.4000244140625" sortable="false" text="Party Size" />
+            <TableColumn fx:id="tableColumn_RoomType" minWidth="0.0" prefWidth="190.4000244140625" sortable="false" text="Room Type" />
+        </columns>
+      </TableView>
+      <Button fx:id="button_Back" layoutX="649.0" layoutY="14.0" mnemonicParsing="false" onAction="#buttonBack" text="Back" />
+   </children>
+</Pane>
