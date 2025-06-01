@@ -28,6 +28,7 @@ This project is a **Hotel Management System** developed as a final project for a
 
 - **4-person group project**
 - Regular group meetings for collaboration and progress tracking
+
 - **My Role**:
   - Designed and implemented all FXML files using SceneBuilder
   - Developed controller classes for UI interaction
