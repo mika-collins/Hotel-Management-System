@@ -7,7 +7,7 @@ This project is a **Hotel Management System** developed as a final project for a
 - Add hotel guest information
 - Make reservations with differing room types (Standard, Balcony, Handicap Accessible)
 - Guests are assigned a room and floor number from available options
-      - The program keeps track of occupied rooms via a list to avoid double-booking
+-       The program keeps track of occupied rooms via a list to avoid double-booking
 - Optional breakfast package added to reservation
 - Total cost calculator prior to reservation check in
 - View a table of all current guests and their reservation details
