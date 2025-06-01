@@ -57,19 +57,19 @@ This project is a **Hotel Management System** developed as a final project for a
 ## 📸 Screenshots
 
 ### Hotel Home Page
-![Home Page](images/home_page.png)
+![Home Page](Images/home_page.png)
 
 ### Add Guest Form
-![Add Guest](images/add_guest.png)
+![Add Guest](Images/add_guest.png)
 
 ### One Example of Error Handling
-![Error Handling](images/error_handling.png)
+![Error Handling](Images/error_handling.png)
 
 ### Guest Reservation Form
-![Guest Reservation](images/guest_reservation.png)
+![Guest Reservation](Images/guest_reservation.png)
 
 ### Table View of Guests and Reservations
-![View Guests](images/view_guests.png)
-![View Reservations](images/view_bookings.png)
+![View Guests](Images/view_guests.png)
+![View Reservations](Images/view_bookings.png)
 
 ---
